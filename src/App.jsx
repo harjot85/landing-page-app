@@ -14,7 +14,7 @@ function App() {
     setGigId(gigId);
     const adSourceId = url.searchParams.get("adsource_id");
     setAdSource(adSourceId);
-    const refId = query.get("ref_id");
+    const refId = url.searchParams.get("ref_id");
     setRefId(refId);
     const countryId = url.searchParams.get("country_id");
     setCountryId(countryId);
