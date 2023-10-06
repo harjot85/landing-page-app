@@ -33,7 +33,7 @@ function App() {
         <Row>
           <Col>
             <a
-              href={`https://app-dev.gigcxmarketplace.com/gig-apply?gig_id=${gigId}&adSource=${adSource}&countryId=${countryId}`}
+              href={`https://app-dev.gigcxmarketplace.com/gig-apply?gig_id=${gigId}&adsource_id=${adSource}&country_id=${countryId}`}
             >
               <Button>Click here to Apply</Button>
             </a>
