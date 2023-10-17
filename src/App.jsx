@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App() {
-  const [gigId, setGigId] = useState("");
-  const [countryId, setCountryId] = useState("");
-  const [adSource, setAdSource] = useState("");
-  const [refId, setRefId] = useState("");
+  const [gigId, setGigId] = useState(0);
+  const [countryId, setCountryId] = useState(0);
+  const [adSource, setAdSource] = useState(0);
+  const [refId, setRefId] = useState(0);
 
   const url = new URL(window.location.href);
 
